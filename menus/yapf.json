@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Format",
+        "command": "yapf:format"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "yapf",
+          "submenu": [
+            {
+              "label": "Format",
+              "command": "yapf:format"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
